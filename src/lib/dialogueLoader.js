@@ -1,9 +1,11 @@
+const BASE_URL = import.meta.env.BASE_URL;
+
 /**
  * Fetch a single dialogue by ID from /data/{id}.json
  */
 export async function getDialogueById(id) {
   try {
-    const response = await fetch(`/data/${id}.json`);
+    const response = await fetch(`${BASE_URL}data/${id}.json`);
     if (!response.ok) {
       throw new Error(`Failed to fetch dialogue: ${id}`);
     }
@@ -19,7 +21,7 @@ export async function getDialogueById(id) {
  */
 export async function getAllDialoguesMeta() {
   try {
-    const response = await fetch('/data/index.json');
+    const response = await fetch(`${BASE_URL}data/index.json`);
     if (!response.ok) {
       throw new Error('Failed to fetch dialogues index');
     }
