@@ -1,0 +1,32 @@
+[
+  {
+    "id": "meaning-of-software",
+    "title": "On the Meaning of Software",
+    "date": "2024-12-15",
+    "description": "A conversation about what software truly represents and how it shapes our understanding of systems.",
+    "participants": [
+      { "id": "alex", "name": "Alex" },
+      { "id": "jordan", "name": "Jordan" }
+    ]
+  },
+  {
+    "id": "abstraction-costs",
+    "title": "The Cost of Abstraction",
+    "date": "2024-12-10",
+    "description": "Exploring when abstractions help and when they hinder software development.",
+    "participants": [
+      { "id": "sam", "name": "Sam" },
+      { "id": "riley", "name": "Riley" }
+    ]
+  },
+  {
+    "id": "debugging-philosophy",
+    "title": "A Philosophy of Debugging",
+    "date": "2024-12-01",
+    "description": "What debugging reveals about the nature of software systems and human understanding.",
+    "participants": [
+      { "id": "maya", "name": "Maya" },
+      { "id": "chris", "name": "Chris" }
+    ]
+  }
+]

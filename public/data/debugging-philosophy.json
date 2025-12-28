@@ -1,0 +1,33 @@
+{
+  "id": "debugging-philosophy",
+  "title": "A Philosophy of Debugging",
+  "date": "2024-12-01",
+  "description": "What debugging reveals about the nature of software systems and human understanding.",
+  "participants": [
+    { "id": "maya", "name": "Maya" },
+    { "id": "chris", "name": "Chris" }
+  ],
+  "exchanges": [
+    {
+      "speakerId": "maya",
+      "content": "Debugging is fundamentally about confronting the gap between your mental model and reality. The bug exists because you thought the system worked one way, but it actually works another."
+    },
+    {
+      "speakerId": "chris",
+      "content": "That's why print debugging works so well. It forces you to articulate your assumptions. \"I think X should be true here.\" Then you check, and surprise—X is not true."
+    },
+    {
+      "speakerId": "maya",
+      "content": "Right. And the best debuggers are the ones who can systematically question their own assumptions. They treat their mental model as hypothetical, not certain."
+    },
+    {
+      "speakerId": "chris",
+      "content": "It's almost scientific. Form a hypothesis about how the system works, design an experiment (add logging, write a test), observe the results, update your model."
+    },
+    {
+      "speakerId": "maya",
+      "content": "But unlike science, you're also the one who wrote the system. So debugging is also about understanding your past self—what you were thinking when you wrote that code, what you misunderstood then that you understand now.",
+      "commentary": "This dual nature of debugging—simultaneously investigating a system and investigating yourself—makes it uniquely introspective. Every bug is a lesson about the limits of your own understanding."
+    }
+  ]
+}

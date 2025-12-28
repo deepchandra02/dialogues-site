@@ -1,0 +1,37 @@
+{
+  "id": "abstraction-costs",
+  "title": "The Cost of Abstraction",
+  "date": "2024-12-10",
+  "description": "Exploring when abstractions help and when they hinder software development.",
+  "participants": [
+    { "id": "sam", "name": "Sam" },
+    { "id": "riley", "name": "Riley" }
+  ],
+  "exchanges": [
+    {
+      "speakerId": "sam",
+      "content": "Every abstraction carries a cost. We talk about DRY and reusability like they're always good, but sometimes the wrong abstraction is worse than duplication."
+    },
+    {
+      "speakerId": "riley",
+      "content": "The problem is timing. Early abstraction locks in assumptions before you understand the problem space. But waiting too long means you end up with unmaintainable duplication."
+    },
+    {
+      "speakerId": "sam",
+      "content": "Maybe the answer is to embrace duplication initially. Write the same thing three times before you abstract. By the third time, you actually understand what varies and what stays constant."
+    },
+    {
+      "speakerId": "riley",
+      "content": "That feels wasteful though. What if you need to change all three copies later?"
+    },
+    {
+      "speakerId": "sam",
+      "content": "Is it really more wasteful than building and maintaining the wrong abstraction? At least with duplication, each instance is simple and obvious. A bad abstraction obscures what's actually happening.",
+      "commentary": "The \"rule of three\" in software design—wait until you've done something three times before abstracting—reflects hard-won wisdom about the dangers of premature optimization, not just of code but of design itself."
+    },
+    {
+      "speakerId": "riley",
+      "content": "I see your point. Abstractions should emerge from concrete examples, not precede them. The code tells you what abstraction it needs, if you listen."
+    }
+  ]
+}
